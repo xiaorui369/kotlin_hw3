@@ -7,7 +7,7 @@ class Profile(private val id: Int,
               private val status: String,
               private val avatar:String
 ){
-    var fullname : String = ""
+    val fullname
         get()= ("$name $surname")
 }
 fun main() {
